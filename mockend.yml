@@ -17,3 +17,11 @@ models:
       email: email
       body: { loremParagraphs: [10, 100] }
       createdAt: { dateTime: [2010-01-01T00:00:00Z, 2020-12-31T23:59:59Z] }
+  User:
+    hasMany: [Listing]
+    data: [{"username": "Superman", "id": 1},{"username": "Ironman", "id": 2},{"username": "Batman", "id": 3}]
+      
+
+  Listing:
+    data: [{"title": "dummy title","owner": 1}]
+    
