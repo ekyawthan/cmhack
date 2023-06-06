@@ -1,0 +1,7 @@
+{
+    "users": [
+        {"id": 0, "username": "Superman", "profileUrl": ""}, 
+        {"id": 0, "username": "Ironman", "profileUrl": ""}, 
+        {"id": 0, "username": "Superman", "profileUrl": ""}
+    ]
+}
